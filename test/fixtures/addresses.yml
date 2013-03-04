@@ -3,11 +3,11 @@
 one:
   street: MyText
   city: MyString
-  state: MyString
+  state: MY
   zip: 1
 
 two:
   street: MyText
   city: MyString
-  state: MyString
+  state: MY
   zip: 1

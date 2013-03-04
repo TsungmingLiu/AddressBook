@@ -1,18 +1,20 @@
+h2 Address for #{@entry.first_name} #{@entry.last_name}
 p#notice = notice
 
 p
-  strong Street:
-  = @address.street
+  strong Street: 
+  = @addresses.street
 p
-  strong City:
-  = @address.city
+  strong City: 
+  = @addresses.city
 p
-  strong State:
-  = @address.state
+  strong State: 
+  = @addresses.state
 p
-  strong Zip:
-  = @address.zip
+  strong Zip: 
+  = @addresses.zip
 
-= link_to 'Edit', edit_address_path(@address)
-'|
-= link_to 'Back', addresses_path
+
+= link_to 'Edit', edit_entry_address_path(@entry,@addresses)
+'   |   
+= link_to 'Back', entry_addresses_path

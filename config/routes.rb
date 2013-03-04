@@ -1,9 +1,7 @@
 AddressBook::Application.routes.draw do
-  resources :addresses
-
 
   resources :entries do
-	resource :addresses
+		resources :addresses
   end
 
 
