@@ -1,11 +1,3 @@
-- What is MIB and what does it do
-  A management information base (MIB) is a database used for managing the entities in a communications network.
-  
-- How does MIB generator work
-  An MIB generator uses the same configuration JSON file as the SNMP sub-agent, generates a MIB file for NetSNMP master agent to follow.
-
-- How to setup
-  There are four major categories of entries in configuration JSON, all listed under branches, and all are mendatory fields:
 | JSON content | Comment |
 | -------- | -------- |
 |{| |
@@ -56,5 +48,3 @@
 |  } | |
 |} | |
 
-- What after
-  After the MIB file is generated, one can simply put it in the NetSNMP MIB directory for the master agent to load, and pair with sub-agent to work.
